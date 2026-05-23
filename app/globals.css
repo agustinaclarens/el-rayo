@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* { box-sizing: border-box; }
+body { font-family: 'Nunito', sans-serif; background: #fff8f0; color: #1a0800; }
+.bebas { font-family: 'Bebas Neue', sans-serif; letter-spacing: 0.05em; }
+.header-gradient { background: linear-gradient(135deg, #1a0800 0%, #E8200A 40%, #F56200 70%, #FFD700 100%); }
+.product-card { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+.product-card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(232,32,10,0.2); }
+.cat-pill { transition: all 0.15s ease; cursor: pointer; }
+.cat-pill.active { background: linear-gradient(135deg, #E8200A, #F56200); color: white; border-color: transparent; }
+.flame-divider { background: linear-gradient(90deg, transparent, #E8200A, #F56200, #FFD700, #F56200, #E8200A, transparent); height: 3px; border: none; }
